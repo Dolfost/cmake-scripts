@@ -44,5 +44,5 @@ Try to execute git pull --tags if so.
 			message("Extracted git version tag: '${GIT_VERSION_TAG}'")
 		endif()
 	endif()
-	return PROPAGATE GIT_VERSION_TAG
+	return(PROPAGATE GIT_VERSION_TAG)
 endfunction()
